@@ -1,35 +1,32 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - prints first 50 numbers of the fibonacci sequence
- *
+ * main - prints sum of fibo numbers under 4,000,000
  * Return: 0
  */
 
 int main(void)
 {
-	int i, j;
-	long n1, n2, next;
+	long int i, j, k, next;
 
-	n1 = j;
-	n2 = 2;
-	j = 50;
+	j = 1;
 
-	for (i = 0; i < j; i++)
+	k = 2;
+
+	for (i = 1; i <= 50; ++i)
 	{
-		if (i == 49)
+		if (j != 20365011074)
 		{
-			printf("%ju", ni);
+			printf("%ld, ", j);
 		}
 		else
 		{
-			printf("%ju, ", nj);
-			next = ni + n2;
-			n1 = n2;
-			n2 = next;
+			printf("%ld\n", j);
 		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
-		printf("\n");
-		return (0);
+
+	return (0);
 }
