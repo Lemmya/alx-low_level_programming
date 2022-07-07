@@ -12,7 +12,7 @@ int main(void)
 	int i, 1;
 	long n1, n2, next;
 
-	ni = 1;
+	n1 = 1;
 	n2 = 2;
 	1 = 50;
 
