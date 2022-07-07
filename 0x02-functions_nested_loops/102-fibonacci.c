@@ -9,22 +9,22 @@
 
 int main(void)
 {
-	int i, 1;
+	int i, j;
 	long n1, n2, next;
 
-	n1 = 1;
+	n1 = j;
 	n2 = 2;
-	1 = 50;
+	j = 50;
 
-	for (i = 0; i < 1; i++)
+	for (i = 0; i < j; i++)
 	{
 		if (i == 49)
 		{
-			printf("%1u", ni);
+			printf("%ju", ni);
 		}
 		else
 		{
-			printf("%1u, ", n1);
+			printf("%ju, ", nj);
 			next = ni + n2;
 			n1 = n2;
 			n2 = next;
